@@ -35,8 +35,9 @@ public class Empleado extends Persona{   //hereda de la clase Persona
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Empleado{");
-        sb.append("idEmpleado=").append(idEmpleado);
+        sb.append("idEmpleado=").append(this.idEmpleado);
         sb.append(", sueldo=").append(sueldo);
+        sb.append(", ").append(super.toString()); //agrega String de la clase padre
         sb.append('}');
         return sb.toString();
     }
