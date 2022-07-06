@@ -9,10 +9,10 @@ package domain;
  * @author educu
  */
 public class Persona {
-    private String nombre;
-    private char genero;
-    private int edad;
-    private String direccion;
+    protected String nombre;
+    protected char genero;
+    protected int edad;
+    protected String direccion;
     
     //constructor vacío
     public Persona(){      
