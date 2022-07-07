@@ -16,7 +16,10 @@ public class Cliente extends Persona{
     private boolean vip;
     private static int contadorCliente;
     
-    public Cliente(){
+    
+    //se inicializan los atributos propios y los de la clase padre
+    public Cliente(Date fechaRegistro, boolean vip,String nombre,char genero, int edad, String direccion ){
+        super(nombre, genero, edad, direccion);
         
 }
     
